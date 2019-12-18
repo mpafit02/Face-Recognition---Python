@@ -2,11 +2,7 @@
 
 ## Description
 
-The whoiswho.py script uses the MIT licenced face_recognition library for 64 bit Python 3 to identify a person.
-It takse as input a folder with pictures for the algorithm to learn and the picture that we search for. The file
-names in the pictures of the folder should be unique. No two pictures whould have the same name in the same folder.
-The algorithm will try to identify the person in the picture, in comparisson with the input folder's pictures and
-return the appropriate message if the folder contains the person or not.
+The whoiswho.py script uses the MIT licenced face_recognition library for 64 bit Python 3 to identify a person. It takse as input a folder with pictures for the algorithm to learn and the picture that we search for. The file names in the pictures of the folder should be unique. No two pictures whould have the same name in the same folder. The algorithm will try to identify the person in the picture, in comparisson with the input folder's pictures and return the appropriate message if the folder contains the person or not.
 
 The GitHub Repository of face_recognition library: https://github.com/ageitgey/face_recognition
 
@@ -14,26 +10,19 @@ The GitHub Repository of face_recognition library: https://github.com/ageitgey/f
 
 **Important:** Python has to be version 3 and 64 bit! Use a Windows 10, 64 bit device to run this script.
 
-1. Download Python 3 64 bit from the webiste
+1. Download Python 3 64 bit from the webiste https://www.python.org/downloads/
 
-https://www.python.org/downloads/
+2. Doanload pip from the website https://pip.pypa.io/en/stable/installing/
 
-2. Doanload pip from the website
+3. To download a C++ compiler, download Visual Studio 2019 Community edition from the link: https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+rc
 
-https://pip.pypa.io/en/stable/installing/
+a. In the Workloads tab select Desktop development with C++ module in the Windows section.
 
-3. Download a C++ compiler
+b. Press Install and after the installation restart your computer.
 
-Download Visual Studio 2019 Community edition from the link:
-https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019+rc
+c. Use the CMD and go to the folder with the whoiswho.py
 
-In the Workloads tab select Desktop development with C++ module in the Windows section.
-
-Press Install and after the installation restart your computer.
-
-Use the CMD and go to the folder with the whoiswho.py
-
-Type the following commands in the folder.
+d. Type the following commands in the folder.
 
 4. Use the following command to download dlib:
 
@@ -70,4 +59,5 @@ or "photo1 not matched in folder1" if the photo1 doesn't match to any picuters i
 ## Authors
 
 **@ Authors:** Marios Pafitis, Demetris Shmitras, Valentinos Parizza
+
 **@ Emails:** mpafit02@ucy.ac.cy, dshimi01@ucy.ac.cy, vpariz01@ucy.ac.cy
